@@ -2,8 +2,7 @@
 
 ### A batch algorithm for deep reinforcement learning. Incorporates dropout regularization and convolutional neural networks with a separate target Q network.
 
-<a href="https://twitter.com/cosmosquared" class="twitter-follow-button" data-show-count="false">Follow @cosmosquared</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+[Follow @cosmosquared](https://twitter.com/cosmosquared)
 
 This algorithm extends the following techniques:
 
@@ -75,7 +74,7 @@ Streaming video is sent by the robot. An implementation for a customized LEGO Mi
 ## Citation
 
 ```
-@misc{keras,
+@misc{rcnfq,
   author = {Harrigan, Cosmo},
   title = {RC-NFQ: Regularized Convolutional Neural Fitted Q Iteration},
   year = {2016},
