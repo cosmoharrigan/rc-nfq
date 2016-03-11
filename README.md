@@ -1,4 +1,4 @@
-# RC-NFQ: Regularized Convolutional Neural Fitted Q Iteration
+## RC-NFQ: Regularized Convolutional Neural Fitted Q Iteration
 
 ### A batch algorithm for deep reinforcement learning. Incorporates dropout regularization and convolutional neural networks with a separate target Q network.
 
