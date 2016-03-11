@@ -20,7 +20,7 @@ This project is still a work in progress and is not finished.
 
 ### Creating an instance of the RC-NFQ algorithm
 
-The [NFQ](https://github.com/cosmoharrigan/rc-nfq/rcnfq/nfq.py) class creates an instance of the RC-NFQ algorithm for a particular agent and environment.
+The [NFQ](rcnfq/nfq.py) class creates an instance of the RC-NFQ algorithm for a particular agent and environment.
 
 ### Parameters
 
@@ -65,11 +65,11 @@ stored in 4 parallel arrays.
 
 ### Setting up an experiment
 
-An experiment consists of an [Experiment](https://github.com/cosmoharrigan/rc-nfq/rcnfq/experiment.py) definition and an [Environment](https://github.com/cosmoharrigan/rc-nfq/rcnfq/environment.py) definition. These need to be configured in the [api\_vision.py](https://github.com/cosmoharrigan/rc-nfq/rcnfq/api_vision.py) webserver.
+An experiment consists of an [Experiment](rcnfq/experiment.py) definition and an [Environment](rcnfq/environment.py) definition. These need to be configured in the [api\_vision.py](rcnfq/api_vision.py) webserver.
 
-The webserver exposes a REST resource used for communicating with the robot. An implementation of a client for a customized LEGO Mindstorms EV3 robot is provided in [client\_vision.py](https://github.com/cosmoharrigan/rc-nfq/robot/client_vision.py).
+The webserver exposes a REST resource used for communicating with the robot. An implementation of a client for a customized LEGO Mindstorms EV3 robot is provided in [client\_vision.py](robot/client_vision.py).
 
-Streaming video is sent by the robot. An implementation for a customized LEGO Mindstorms EV3 robot is provided in [rapid\_streaming\_zmq.py](https://github.com/cosmoharrigan/rc-nfq/robot/rapid_streaming_zmq.py). The streaming video is then received by the server using [receive\_video\_zmq.py](https://github.com/cosmoharrigan/rc-nfq/rcnfq/receive_video_zmq.py). The video stream can be monitored using [show\_video\_zmq.py](https://github.com/cosmoharrigan/rc-nfq/rcnfq/show_video_zmq.py).
+Streaming video is sent by the robot. An implementation for a customized LEGO Mindstorms EV3 robot is provided in [rapid\_streaming\_zmq.py](robot/rapid_streaming_zmq.py). The streaming video is then received by the server using [receive\_video\_zmq.py](rcnfq/receive_video_zmq.py). The video stream can be monitored using [show\_video\_zmq.py](rcnfq/show_video_zmq.py).
 
 ## Citation
 
