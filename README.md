@@ -20,7 +20,7 @@ This project is still a work in progress and is not finished.
 
 ### Creating an instance of the RC-NFQ algorithm
 
-The [NFQ](https://github.com/cosmoharrigan/rc-nfq/rc-nfq/nfq.py) class creates an instance of the RC-NFQ algorithm for a particular agent and environment.
+The [NFQ](https://github.com/cosmoharrigan/rc-nfq/rcnfq/nfq.py) class creates an instance of the RC-NFQ algorithm for a particular agent and environment.
 
 ### Parameters
 
