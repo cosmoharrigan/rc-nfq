@@ -12,9 +12,7 @@ This algorithm extends the following techniques:
 
 - Lin, Long-Ji. "Self-improving reactive agents based on reinforcement learning, planning and teaching." Machine learning 8.3-4 (1992): 293-321.
 
-## Project Status
-
-This project is still a work in progress and is not finished.
+**Project Status:** This project is still a work in progress and is not finished.
 
 ## Overview
 
