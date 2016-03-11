@@ -20,7 +20,7 @@ This project is still a work in progress and is not finished.
 
 ### Creating an instance of the RC-NFQ algorithm
 
-The [NFQ](rcnfq/nfq.py) class creates an instance of the RC-NFQ algorithm for a particular agent and environment.
+The [NFQ](rcnfq/rcnfq.py) class creates an instance of the RC-NFQ algorithm for a particular agent and environment.
 
 ### Parameters
 
@@ -65,7 +65,7 @@ stored in 4 parallel arrays.
 
 ### Setting up an experiment
 
-An experiment consists of an [Experiment](rcnfq/experiment.py) definition and an [Environment](rcnfq/environment.py) definition. These need to be configured in the [api\_vision.py](rcnfq/api_vision.py) webserver.
+An experiment consists of an [Experiment](rcnfq/experiments.py) definition and an [Environment](rcnfq/environments.py) definition. These need to be configured in the [api\_vision.py](rcnfq/api_vision.py) webserver.
 
 The webserver exposes a REST resource used for communicating with the robot. An implementation of a client for a customized LEGO Mindstorms EV3 robot is provided in [client\_vision.py](robot/client_vision.py).
 
