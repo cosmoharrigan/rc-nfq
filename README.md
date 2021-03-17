@@ -2,7 +2,7 @@
 
 ### A batch algorithm for deep reinforcement learning. Incorporates dropout regularization and convolutional neural networks with a separate target Q network.
 
-[Follow @cosmosquared](https://twitter.com/cosmosquared)
+[Follow @cosmoharrigan on Twitter](https://twitter.com/cosmoharrigan)
 
 This algorithm extends the following techniques:
 
